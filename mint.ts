@@ -19,9 +19,9 @@ const userWallet = umi.eddsa.createKeypairFromSecretKey(new Uint8Array(secret));
 const userWalletSigner = createSignerFromKeypair(umi, userWallet);
 
 const metadata = {
-  name: "Veer Token",
-  symbol: "VTK",
-  uri: "https://arweave.net/0qUGUIrmXCu-N6lUQZTuSPSsaCF9bK7Y19GvgAjuBIY",
+  name: "ZYGO",
+  symbol: "ZYG",
+  uri: "https://arweave.net",
 };
 
 const mint = generateSigner(umi);
